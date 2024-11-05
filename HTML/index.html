@@ -5,36 +5,66 @@
     <meta name="author" content="Apoorva Viresh">
     <meta name="description" content="this has all the things im learning about HTML5">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./html5-logo-31813.png" type="image/x-icon">
+    <link rel="icon" href="./img/html5-logo-31813.png" type="image/x-icon">
+    
     <title>My First Webpage</title>
     <link rel="stylesheet" href="./main.css  " type="text/css">
 </head>
 
 <body>
-    <h1>Hello World!</h1>
+    <h1>My goals for the year</h1>
 
     <hr>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#html">Learning HTML</a>&nbsp; &nbsp;
+                </li>
+                <li>
+                    <a href="#vacation">Planning Vacation</a>
+                </li>
+            </ul>
+        </nav>
+    <hr>
 
+
+
+<section id="html">
     <h2>Im ready to learn HTML.</h2>
     <p>This is my first webpage!</p>
+    <img src="./img/html5-logo-31813.png" alt="HTML5 Logo" title="I am learning HTML5" width="300" height="300">
+    <figure>
+        <figcaption>An example of HTML5 code</figcaption>
+        <p>
+            <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+        </p>
+    </figure>
     <h3>My daily schedule</h3>
     <p>Let me tell you how:
         <ol>
             <li> I learn more about web dev.</li>
             <li> I plan out my schedule.</li>
-            <li> I use resources from <abbr title="mozilla developer network">MDN</abbr></li>
-        </ol>
-       
-        
-        
+            <li> I use resources from <abbr title="mozilla developer network"><a href="https://developer.mozilla.org/">MDN</a></abbr></li>
+        </ol>       
     </p>
+</section>
+
     <hr>
+    
 
+<section id="vacation">
     <h2>Im also planning a vacation.</h2>
+    <img src="./img/vacation.avif" alt="Vacation Image" title="vacation image" width="1000" height="667" >
     <p>Ive been working hard and <em>really need a getaway</em></p>
-    <p>I live in <abbr title="bangalore">blr</abbr> and i feel like visisting a beach.</p>
-
-    <h3>Places i'd like to visit</h3>
+    <p>I live in <abbr title="bangalore">blr</abbr> and I feel like visiting a beach.</p>
+    <h3>Places I'd like to visit is <strong>Pondicherry!</strong></h3>
+    <figure>
+        <img src="./img/pondicherrybeach.avif" alt="Pondicherry Beach" title="places i like to visit" width="2070" height="1380" loading="lazy">
+        <figcaption>
+            Pondicherry Beach Getaway
+        </figcaption>
+    </figure>
+    <p>Few places in Pondicherry which I want to visit are:</p>
     <ul>
         <li>White Town</li>
         <li>Serenity Beach</li>
@@ -46,7 +76,11 @@
         Colonia Morelos,<br>
         Puducherry 605001, India
     </address>
-        </li>
+    <figure>
+    <img src="./img/vacation.avif" alt="Cancun Vacation" title="It's 5 'o' clock Somewhere!" loading="lazy" width="1000" height="667">
+    <figcaption>A Pondicherry Vacation Image</figcaption>
+</figure>        
+</li>
     </ul>
     
 
@@ -73,8 +107,12 @@
             
         </dl>
     </ol>
-    
+</section>
     <hr>
-    &lt;&lt;&lt; &copy; Apoorva Viresh &gt;&gt;&gt;
+    &lt;&lt;&lt; &copy; <a href="about.html">Apoorva Viresh</a> &gt;&gt;&gt;
+
+    <p>
+        <a href="#">Back to Top</a>
+    </p>
 </body>
 </html> 

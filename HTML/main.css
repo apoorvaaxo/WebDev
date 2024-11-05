@@ -7,3 +7,23 @@ body    {
             background-color: black;
             color: whitesmoke;
         }
+#html
+{
+    background-color: aqua;
+    color: black;
+}
+
+#vacation
+{
+    background-color: aqua;
+    color: black;
+}
+a{
+    color: aliceblue;
+}
+a:visited{
+    color: lightgrey;
+}
+a:hover , a:active{
+    color:crimson;
+}
