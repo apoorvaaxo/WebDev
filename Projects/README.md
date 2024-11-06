@@ -9,11 +9,4 @@ This project is a simple resume-style webpage created using HTML to demonstrate 
 - **Lists**: Uses unordered lists to structure sections like Education, Experience, and Skills.
 - **Attributes**: Applies HTML attributes such as `href`, `src`, `alt`, and `target` across the document.
 
-## Getting Started
 
-To view the project locally:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/resume-webpage.git
