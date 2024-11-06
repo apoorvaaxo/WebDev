@@ -6,7 +6,6 @@ This project is a simple resume-style webpage created using HTML to demonstrate 
 
 - **Semantic HTML5 Structure**: Utilizes semantic tags like `<header>`, `<section>`, and `<footer>` for better structure and accessibility.
 - **Navigation Menu**: Features a simple navigation bar with links to different sections of the resume.
-- **Media Elements**: Includes an image element to display a profile picture.
 - **Lists**: Uses unordered lists to structure sections like Education, Experience, and Skills.
 - **Attributes**: Applies HTML attributes such as `href`, `src`, `alt`, and `target` across the document.
 
